@@ -1,0 +1,76 @@
+
+GET http://localhost:3051/
+
+
+###
+POST http://localhost:3051/subjectData
+Content-Type: application/json
+
+{
+     "name":"Frontend18802134",
+    "Description":"chapters12145",
+     "subjecttag":"Add99012141"
+
+}
+
+###
+DELETE http://localhost:3051/deleteInstitute/655de218be8ac89864261b76
+
+
+###
+PUT http://localhost:3051/UpdateInstitute/655312fba5b04c69cd2f3ece
+Content-Type: application/json
+
+{
+     "name":"react",
+    "Description":"chapters19",
+     "subjecttag":"Add17"
+
+}
+
+# chapter
+
+###
+POST http://localhost:3051/chapterData
+Content-Type: application/json
+
+{
+     "name1":"backend11010321211021",
+    "Description1":"subii0132111091",
+     "subjecttag1":"Add558k011223111091",
+      "chaptertag":"Bot7l011232111091"
+}
+
+###
+DELETE  http://localhost:3051/deleteInstitute/655de4d6a040c20e0a1edb06
+
+###
+PUT http://localhost:3051/UpdateInstitute/655de4d6a040c20e0a1edb06
+
+###
+POST  http://localhost:3051/signData
+Content-Type: application/json
+
+{
+     "Name":"anuradha",
+     "Email":"anuradha@111gmail.com",
+     "Phonenumber":630273143,
+     "pasword":"anuradha19",
+     "confirmpassword":"anuradha19",
+     "Gender":"male"
+
+}
+
+
+
+
+
+
+###
+GET http://localhost:3051/allsubjectData
+
+###
+GET http://localhost:3051/allchapterData
+
+###
+GET http://localhost:3051/allsignData
